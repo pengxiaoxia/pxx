@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .box{
+            border: 1px solid #cccccc;
+        }
+        .box1{
+            border: 1px solid #000000;
+        }
+        .box2{
+            border: 1px solid #ff0000;
+        }
+    </style>
+</head>
+<body>
+<script src="js/angular.min.js"></script>
+<!--demo1-->
+<!--<div ng-app="myapp" ng-controller="mycontrol">
+    <div ng-bind="user[0].user" ng-class="{box:true}"></div>
+    <select name="" id="" ng-model="test">
+        <option value="box1">11</option>
+        <option value="box2">22</option>
+    </select>
+    <div ng-class="test">jsdlfjklds</div>
+    <div ng-show="isShow">是否显示盒子</div>
+    <div ng-hide="isShow">是否yincang盒子</div>
+</div>-->
+<!--demo2-->
+<!--<div ng-app="myapp" ng-controller="mycontrol">
+    <ul>
+        <li ng-repeat="item in user">
+            <b>用户名{{$index+1}}：{{item.user}}</b>
+            <span>密码{{$index+1}}：{{item.num}}</span>
+        </li>
+    </ul>
+</div>-->
+<!--demo3-->
+<!--<div ng-app="myapp" ng-controller="mycontrol">
+    <input type="text" placeholder="username" ng-model="name">
+    <p>{{name}}</p>
+</div>-->
+<!--demo3-->
+<div ng-app="myapp" ng-controller="mycontrol">
+    <input type="text" placeholder="username" ng-model="sum">
+    <input type="button" value="+" ng-click="add()">
+</div>
+</body>
+<script src="js/app.js"></script>
+</html>
